@@ -16,7 +16,6 @@ class CreateBlogPostsTable extends Migration
             $table->increments('id');
 	        $table->string('post_title');
 	        $table->text('post_content');
-	        $table->dateTime('post_created_at');
 
             $table->timestamps();
 
